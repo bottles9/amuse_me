@@ -1,0 +1,319 @@
+/*
+
+ */
+/* line 6, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+body {
+  font-family: "Proxima Nova";
+  font-weight: 100;
+}
+
+/* line 12, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+/* line 16, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 21, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 26, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 29, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+.button {
+  border: 1px solid #9B9B9B;
+  padding: .7rem 1.25rem;
+  border-radius: .3rem;
+  outline: none;
+  background: white;
+  color: #9B9B9B;
+}
+
+/* line 38, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+header {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 1px solid #E4E4E4;
+}
+/* line 42, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+header #logo {
+  float: left;
+  font-size: 1.75rem;
+}
+/* line 45, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+header #logo a {
+  color: #333233;
+  text-decoration: none;
+}
+/* line 48, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+header #logo a:hover {
+  color: #50A7C7;
+}
+/* line 54, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+header nav {
+  float: right;
+}
+/* line 56, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+header nav a {
+  margin-left: 1.5rem;
+  line-height: 2;
+  color: #9B9B9B;
+  text-decoration: none;
+}
+/* line 61, C:/Sites/immense-chamber-45828/app/assets/stylesheets/application.scss */
+header nav a:hover {
+  color: #50A7C7;
+}
+
+/* line 1, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#intro {
+  margin: 2.75rem 0 1.75rem 0;
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: 1;
+}
+/* line 6, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#intro span {
+  font-size: 1.25rem;
+  color: #9B9B9B;
+}
+
+/* line 13, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post {
+  background: #F8F9FA;
+  width: 30%;
+  float: left;
+  margin: 1rem 1.5%;
+  border: 1px solid #E4E4E4;
+  border-radius: 0.3rem;
+}
+/* line 20, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post .post_image {
+  height: 200px;
+  overflow: hidden;
+}
+/* line 23, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post .post_image img {
+  width: 100%;
+  border-radius: .3rem .3rem 0 0;
+}
+/* line 30, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post .post_content h2 {
+  margin: 0;
+  font-weight: 100;
+  padding: 1rem 5%;
+  border-bottom: 1px solid #E4E4E4;
+  font-size: 1.25rem;
+}
+/* line 36, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post .post_content h2 a {
+  text-decoration: none;
+  color: #333233;
+}
+/* line 39, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post .post_content h2 a:hover {
+  color: #50A7C7;
+}
+/* line 45, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post .post_content .data {
+  padding: .75rem 5%;
+  color: #969696;
+}
+/* line 48, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post .post_content .data .username, #posts .post .post_content .data .buttons {
+  margin: 0;
+  font-size: .8rem;
+}
+/* line 52, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post .post_content .data .username {
+  float: left;
+}
+/* line 55, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post .post_content .data .buttons {
+  float: right;
+}
+/* line 57, C:/Sites/immense-chamber-45828/app/assets/stylesheets/home.scss */
+#posts .post .post_content .data .buttons span {
+  margin-left: .5rem;
+}
+
+/* line 1, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show {
+  padding-top: 2rem;
+}
+/* line 3, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show .post_image_description {
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+}
+/* line 8, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show .post_data {
+  width: 15%;
+  float: left;
+}
+/* line 11, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show .post_data .button {
+  width: 100%;
+  display: inline-block;
+  padding: .75rem 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #969696;
+}
+/* line 19, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show .post_data .button:hover {
+  color: #50A7C7;
+  border: 1px solid #50A7C7;
+}
+/* line 24, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show .post_data .data {
+  width: 100%;
+  display: block;
+  padding: .75rem 0;
+  border-bottom: 1px solid #E9E9E9;
+  text-decoration: none;
+  color: #969696;
+  margin: 0;
+}
+/* line 35, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post {
+  width: 23%;
+  margin-left: 5%;
+  margin-top: -3.2rem;
+  float: left;
+}
+/* line 40, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post h2 {
+  font-size: 1rem;
+}
+/* line 43, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post .post {
+  background: #F8F9FA;
+  border: 1px solid #E4E4E4;
+  border-radius: 0.3rem;
+}
+/* line 47, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post .post .post_image {
+  height: 200px;
+  overflow: hidden;
+}
+/* line 50, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post .post .post_image img {
+  width: 100%;
+  border-radius: .3rem .3rem 0 0;
+}
+/* line 56, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post .post .post_content h2 {
+  margin: 0;
+  font-weight: 100;
+  padding: 1rem 5%;
+  border-bottom: 1px solid #E4E4E4;
+  font-size: 1.25rem;
+}
+/* line 62, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post .post .post_content h2 a {
+  text-decoration: none;
+  color: #333233;
+}
+/* line 69, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post .post .data {
+  padding: .7rem 5%;
+  color: #969696;
+}
+/* line 72, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post .post .data .username, #post_show #random_post .post .data .buttons {
+  margin: 0;
+  font-size: .8rem;
+}
+/* line 76, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post .post .data .username {
+  float: left;
+}
+/* line 79, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post .post .data .buttons {
+  float: right;
+}
+/* line 81, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#post_show #random_post .post .data .buttons span {
+  margin-left: .5rem;
+}
+
+/* line 90, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+h1 {
+  margin: 0;
+  color: #333233;
+}
+
+/* line 94, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+img {
+  widows: 100%;
+  border-radius: .3rem;
+}
+
+/* line 98, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+.username {
+  color: #969696;
+  margin: 0 0 1.5rem 0;
+}
+
+/* line 102, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+.description {
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #969696;
+}
+
+/* line 108, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#comments {
+  padding-bottom: 4rem;
+  width: 50%;
+}
+/* line 111, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#comments .comment_count {
+  border-bottom: 1px solid #E9E9E9;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+}
+/* line 116, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#comments .comment {
+  padding: 2rem 0;
+  border-bottom: 1px solid #E9E9E9;
+  padding-left: 5%;
+}
+/* line 120, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#comments .comment .username {
+  font-size: 1.3rem;
+  color: #333233;
+  margin: 0 0 .5rem 0;
+}
+/* line 125, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#comments .comment .content {
+  margin: 0;
+  color: #969696;
+}
+/* line 131, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#comments .comment_content {
+  margin-top: 2.5rem;
+}
+/* line 133, C:/Sites/immense-chamber-45828/app/assets/stylesheets/posts.scss */
+#comments .comment_content textarea {
+  width: 100%;
+  margin: 1rem 0;
+  min-height: 150px;
+  border: 1px solid #E4E4E4;
+  background: #F8F9FA;
+  border-radius: 0.3rem;
+}
