@@ -38,6 +38,7 @@ gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'paperclip', '~> 6.1'
 gem 'simple_form', '~> 4.1'
+gem 'acts_as_votable', '~> 0.12.0'
 
 
 group :production do
