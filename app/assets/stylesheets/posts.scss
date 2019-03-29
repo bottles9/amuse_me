@@ -3,7 +3,7 @@
     .post_image_description {
         width: 55%;
         float: left;
-        margin-right: 5%;
+        margin-right: 2%;
     }
     .post_data {
         width: 15%;
@@ -94,6 +94,7 @@ h1 {
 img {
     widows: 100%;
     border-radius: .3rem;
+        width: 90% !important;
 }
 .username {
     color: #969696;
